@@ -1,1 +1,1 @@
-# Zenintel-wb
+# Zenintel-web
