@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+ 
+@theme{
+    --color-primary:var(--primary);
+    --base:var(--base)
+}
+html {
+    font-family: 'Inter Variable', sans-serif;
+    color: var(--primary-font-color);
+ 
+    
+}
+ 
+:root {
+    --primary: rgba(0, 76, 255, 1);
+    --secondary: rgba(248, 249, 249, 1);
+    --base: rgba(15, 15, 15, 1);
+    --primary-font-color: rgba(12, 34, 59, 1)
+}
