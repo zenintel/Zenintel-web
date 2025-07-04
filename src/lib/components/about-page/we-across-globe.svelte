@@ -1,5 +1,4 @@
-<script>
-	// You can add any necessary logic here
+<script lang="ts">
 	import WorldMap from '$lib/images/map.png';
 </script>
 
@@ -18,16 +17,4 @@
 	
 </div>
 
-<style>
-	.partner-item {
-		padding: 12px 24px;
-		border-radius: 8px;
-		background-color: #f8fafc;
-		transition: all 0.3s ease;
-	}
 
-	.partner-item:hover {
-		background-color: #e2e8f0;
-		transform: translateY(-2px);
-	}
-</style>

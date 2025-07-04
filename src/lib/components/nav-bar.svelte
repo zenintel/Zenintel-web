@@ -29,13 +29,13 @@
 			description:
 				'Customize Salesforce to fit your business with tailored CRM, automation, and AI solutions.',
 			icon: ServiceSales,
-			href: '/services/salesforce'
+			href: '/services/sales-force'
 		},
 		{
 			title: 'AI Driven',
 			description: 'AI-driven solutions to automate, optimise, and scale your business.',
 			icon: ServiceAi,
-			href: '/services/ai-driven'
+			href: '/services/AI-driven'
 		},
 		{
 			title: 'Shopify',
@@ -48,14 +48,14 @@
 			description:
 				'Power Platform solutions to automate workflows, analyze data, and build apps effortlessly.',
 			icon: ServiceMicrosoft,
-			href: '/services/microsoft365'
+			href: '/services/microsoft-365'
 		},
 		{
 			title: 'Product Engineering',
 			description:
 				'End-to-end product engineering solutions to design, build, and scale innovative software.',
 			icon: ServiceProduct,
-			href: '/services/product-engineer'
+			href: '/services/product-engineering'
 		}
 	]);
 
