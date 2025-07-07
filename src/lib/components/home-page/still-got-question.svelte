@@ -44,7 +44,7 @@
 	<div class="mx-auto max-w-4xl">
 		<!-- Header Section -->
 		<div class="mb-12 text-center">
-			<h1 class="mb-6 text-3xl font-bold text-gray-900 md:text-4xl">Still got Questions?</h1>
+			<h1 class="mb-6 text-2xl font-bold text-gray-900 md:text-4xl">Still got Questions?</h1>
 			<p class="mb-8 text-lg text-gray-600">
 				Got suggestions or just wanna talk to us? Email us at
 				<a href="mailto:sales@zen-intel.com" class="text-primary hover:underline">
@@ -62,7 +62,7 @@
 						<Accordion.Trigger
 							class="hover:text-primary flex w-full items-center justify-between py-6 text-left font-medium text-gray-900 transition-colors"
 						>
-							<span class="text-lg font-medium">
+							<span class="lg:text-lg text-sm font-medium">
 								{i + 1}. {faq.question}
 							</span>
 							<span
@@ -106,7 +106,7 @@
 						class="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-gray-600 transition-all"
 					>
 						<div class="pb-6">
-							<p class="text-base leading-relaxed">
+							<p class="lg:text-base text-sm leading-relaxed">
 								{faq.answer}
 							</p>
 						</div>

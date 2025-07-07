@@ -42,7 +42,7 @@
 		<!-- Blog Cards -->
 		<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
 			{#each blogs as blog}
-				<div class=" overflow-hidden rounded-lg">
+				<div class=" flex flex-col justify-between overflow-hidden rounded-lg">
 					<div>
 						<img
 							src={blog.image}
@@ -55,7 +55,9 @@
 						<h3 class="mb-4 line-clamp-3 text-lg font-semibold text-gray-800">
 							{blog.title}
 						</h3>
-						<div>
+						
+					</div>
+					<div>
 							<a
 								href="#/"
 								class="inline-flex items-center font-medium text-blue-600 hover:underline"
@@ -63,7 +65,6 @@
 								{blog.linkText}
 							</a>
 						</div>
-					</div>
 				</div>
 			{/each}
 		</div>
