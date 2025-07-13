@@ -1,6 +1,5 @@
 <script>
   import MicroSoftLogo from "$lib/images/microsoft-page/microsoft-logo.png";
-  import MicroSoft from "$lib/images/microsoft-page/microsoft-image.png";
   import RightArrow from "$lib/icons/microsoft/right-arrow.svelte";
 </script>
 
@@ -58,7 +57,7 @@
 
 
       <div class="md:block mt-6 lg:w-2/3 h-full">
-        <img src={MicroSoft} alt="Microsoft services" />
+        <img src="https://i.ibb.co/jPZcgX7z/microsoft-main.png" alt="Microsoft services" />
       </div>
     </div>
 

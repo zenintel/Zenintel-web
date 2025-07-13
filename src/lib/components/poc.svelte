@@ -18,7 +18,7 @@
         </div>
 
         <div class="relative flex-1 max-w-[500px]">
-            <img src={POC} alt="men" class="w-full" />
+            <img src="https://i.ibb.co/2Y3Q7yzN/man-stand.png" alt="men" class="w-full" />
             <div class="absolute right-0 bottom-3 w-[200px] rounded-2xl bg-white p-3 text-xs text-black shadow-md md:bottom-24 md:w-[240px] md:p-4 md:text-sm">
                 <p>We transform businesses with tailored IT solutions using the latest technology.</p>
             </div>

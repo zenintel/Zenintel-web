@@ -14,7 +14,8 @@ export const nodes = [
 	() => import('./nodes/10'),
 	() => import('./nodes/11'),
 	() => import('./nodes/12'),
-	() => import('./nodes/13')
+	() => import('./nodes/13'),
+	() => import('./nodes/14')
 ];
 
 export const server_loads = [];
@@ -26,12 +27,13 @@ export const dictionary = {
 		"/services/AI-driven": [5],
 		"/services/AI-driven/blog/[slug]": [~6],
 		"/services/microsoft-365": [7],
-		"/services/product-engineering": [8],
-		"/services/product-engineering/blog/[slug]": [~9],
-		"/services/sales-force": [10],
-		"/services/sales-force/blog/[slug]": [~11],
-		"/services/shopify": [12],
-		"/services/shopify/blog/[slug]": [~13]
+		"/services/microsoft-365/blog/[slug]": [~8],
+		"/services/product-engineering": [9],
+		"/services/product-engineering/blog/[slug]": [~10],
+		"/services/sales-force": [11],
+		"/services/sales-force/blog/[slug]": [~12],
+		"/services/shopify": [13],
+		"/services/shopify/blog/[slug]": [~14]
 	};
 
 export const hooks = {

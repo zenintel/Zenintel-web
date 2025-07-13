@@ -1,17 +1,15 @@
 <script lang="ts">
-    import SMB from'$lib/images/sales-page/smb.png'
-    import CustomerSupport from '$lib/images/sales-page/customer-support.png'
 
     const projects = [
     {
-      img: SMB,
+      img: "https://i.ibb.co/pBKW29C8/sales-1.png",
       alt: "mobile",
       title:
         "Transforming Sales for an SMB",
       link: "sales-force/blog/smb-salesforce-transformation",
     },
     {
-      img: CustomerSupport,
+      img: "https://i.ibb.co/N6gbsGjM/sales-page-2.png",
       alt: "bottle",
       title:
         "Enhancing Customer Engagement for a Mid-Sized Firm",

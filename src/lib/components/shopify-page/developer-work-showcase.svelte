@@ -1,33 +1,29 @@
 <script lang="ts">
-  import Mobile from "$lib/images/shopify/mobile-screen.png";
-  import Bottle from "$lib/images/shopify/bottle.png";
-  import Swimming from "$lib/images/shopify/swimming.png";
-  import Cart from "$lib/images/shopify/cart.png";
 
   const projects = [
     {
-      img: Mobile,
+      img: "https://i.ibb.co/BRcQQRy/shopify-phone.png",
       alt: "mobile",
       title:
         "Elevating eCommerce: How Lift Foils Transformed Their Online Experience with Headless Shopify",
       link: "shopify/blog/lift-foils-headless-shopify",
     },
     {
-      img: Bottle,
+      img: "https://i.ibb.co/vCBp83n5/shopify-bottle.png",
       alt: "bottle",
       title:
         "Revamping Vintage Bottlers Ltd.: A Modern Approach to Online Shopping",
       link: "shopify/blog/vintage-bottlers-shopify",
     },
     {
-      img: Swimming,
+      img: "https://i.ibb.co/kgF9YWV5/shopify-swimming.png",
       alt: "Swimming",
       title:
         "Optimizing eCommerce: Lift Foils Australia's Seamless Transition to Shopify incentives",
       link: "shopify/blog/lift-foils-shopify",
     },
     {
-      img: Cart,
+      img: "https://i.ibb.co/9mTNMwCy/shopify-shop.png",
       alt: "Shopping cart",
       title:
         "Optimizing eCommerce: Lift Foils Australia's Seamless Transition to Shopify",

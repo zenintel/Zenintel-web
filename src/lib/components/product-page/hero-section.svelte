@@ -1,6 +1,5 @@
 <script>
   import GearLogo from "$lib/images/product/gear-logo.png";
-  import Product from "$lib/images/product/product.png";
   import RightArrow from "$lib/icons/microsoft/right-arrow.svelte";
 </script>
 
@@ -47,7 +46,7 @@
       </div>
 
       <div class="md:block mt-6 lg:w-1/2 h-full lg:order-2">
-        <img src={Product} alt="sale hero" class="w-full h-auto" />
+        <img src="https://i.ibb.co/V5LmrqR/hand-settings.png" alt="sale hero" class="w-full h-auto" />
       </div>
     </div>
   </div>

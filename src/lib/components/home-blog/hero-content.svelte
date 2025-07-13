@@ -1,7 +1,4 @@
-    <script lang="ts">
-    // Assuming you have these images in your project
-    import Clients from "$lib/images/blog/clients.png";
-    </script>
+
 
     <section class="bg-[#EFF3FB] px-4 flex flex-col justify-center min-h-screen">
     <div class="max-w-6xl mx-auto">
@@ -20,7 +17,7 @@
         </div>
         <div class="mt-16 w-full max-w-5xl mx-auto">
             <img
-            src={Clients}
+            src="https://i.ibb.co/ynGGFtKV/Group-1171277046.png"
             alt="ZenIntel clients including JUMEIRAH, BigPay, and others"
             class="w-full h-auto object-contain"
             />

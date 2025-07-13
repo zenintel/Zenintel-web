@@ -1,5 +1,4 @@
 <script>
-	import laptop from '$lib/images/laptop.png';
 	import software from '$lib/images/software.png';
 	import mobile from '$lib/images/mobile.png';
 	const blogs = [
@@ -7,19 +6,19 @@
 			title:
 				'The Importance of Product Engineering, Modernization, and Maintenance in Business Growth',
 			linkText: 'View more →',
-			image: laptop,
+			image: "https://i.ibb.co/qMjVFDfV/home-computer.png",
 			alt: 'Laptop representing product engineering'
 		},
 		{
 			title: 'The Importance of Microsoft Power Apps, Azure, & SharePoint for Modern Businesses',
 			linkText: 'View more →',
-			image: software,
+			image: "https://i.ibb.co/SX5NSLsy/home-teams.png",
 			alt: 'Software icons representing Microsoft technologies'
 		},
 		{
 			title: 'Maximizing Your Business Potential with Shopify: A Complete Guide',
 			linkText: 'View more →',
-			image: mobile,
+			image: "https://i.ibb.co/Y7Kv2QGB/home-max.png",
 			alt: 'Mobile device representing Shopify'
 		}
 	];

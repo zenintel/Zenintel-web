@@ -8,46 +8,46 @@
 
   const projects = [
     {
-      img: MicroSoftAutomate,
+      img: "https://i.ibb.co/JY65dXZ/microsoft-account.png",
       alt: "mobile",
       title:
         "Microsoft Power Automate in the Real Estate Domain incentives",
-      link: "#",
+      link: "microsoft-365/blog/real-estate-power-automate",
     },
     {
-      img: MicroSoftPowerPoint,
+      img: "https://i.ibb.co/4ZY9pMYM/microsoft-2.png",
       alt: "bottle",
       title:
         "Microsoft SharePoint for Document Management and Collaborationincentives",
-      link: "#",
+      link: "microsoft-365/blog/manufacturing-sharepoint-implementation",
     },
     {
-      img: ShoppingCart,
+      img: "https://i.ibb.co/vvgjgrhP/microsoft-3.png",
       alt: "Swimming",
       title:
         "Microsoft Teams for a Small E-commerce Business",
-      link: "#",
+      link: "microsoft-365/blog/ecommerce-teams-implementation",
     },
     {
-      img: MimeCast,
+      img: "https://i.ibb.co/QvZGkkVW/microsoft-4.png",
       alt: "Shopping cart",
       title:
         "Mimecast Integration with Service Now",
-      link: "#",
+      link: "microsoft-365/blog/mimecast-servicenow-integration",
     },
      {
-      img: jira,
+      img: "https://i.ibb.co/MxFCW4gT/microsoft-5.png",
       alt: "Shopping cart",
       title:
         "SharePoint-Jira Integration Using Power Automate",
-      link: "#",
+      link: "microsoft-365/blog/sharepoint-jira-integration",
     },
      {
-      img: automation,
+      img: "https://i.ibb.co/xtdtmNfv/microsot-6.png",
       alt: "Shopping cart",
       title:
         "Automating Finance Application Reports",
-      link: "#",
+      link: "microsoft-365/blog/automating-finance-application-reports",
     },
   ];
 </script>

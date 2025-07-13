@@ -1,8 +1,8 @@
 <script lang="ts">
-import Stock from '$lib/images/product/stock.png'
+
 const projects = [
     {
-      img: Stock,
+      img: "https://i.ibb.co/bpGBYyf/product-computer.png",
       alt: "stock",
       title:
         "We integrate with the best in e-commerce",

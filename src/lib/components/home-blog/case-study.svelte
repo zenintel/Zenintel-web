@@ -1,7 +1,4 @@
 <script>
-  import Laptop from "$lib/images/blog/laptop.png";
-  import Azure from "$lib/images/blog/azure.png";
-  import Shopify from "$lib/images/blog/shopify.png";
   import Salesforce from "$lib/images/blog/sales-force.png";
   import AI from "$lib/images/blog/AI.png";
   import Office from "$lib/images/blog/office-space.png";
@@ -10,7 +7,7 @@
   const latestCaseStudy = {
     title:
       "The Importance of Product Engineering, Modernization, and Maintenance in business growth",
-    image: Laptop,
+    image: "https://i.ibb.co/RXSLCv2/comp.png",
     link: "#",
   };
 
@@ -18,13 +15,13 @@
     {
       title:
         "The Importance of Microsoft Power Apps, Azure, & SharePoint for Modern Businesses",
-      image: Azure,
+      image: "https://i.ibb.co/wqyDsgY/mob.png",
       link: "#",
     },
     {
       title:
         "Maximizing Your Business Potential with Shopify: A Complete Guide",
-      image: Shopify,
+      image: "https://i.ibb.co/4n8gVX7B/mobile.png",
       link: "#",
     },
   ];
@@ -32,19 +29,19 @@
   const otherCaseStudies = [
     {
       title: "Unlocking Business Success with Salesforce and Agentforce",
-      image: Salesforce,
+      image: "https://i.ibb.co/9HTDccVf/blog-sales.png",
       link: "#",
     },
     {
       title:
         "AI-Driven NLP and Computer Vision: Revolutionizing the Future of Technology",
-      image: AI,
+      image: "https://i.ibb.co/dwTzVH6t/blog-ai.png",
       link: "#",
     },
     {
       title:
         "The Importance of Outsourcing & Offshore Development Partners in Today’s Business Landscape",
-      image: Office,
+      image: "https://i.ibb.co/WWk7VkmL/blog-listen.png",
       link: "#",
     },
   ];

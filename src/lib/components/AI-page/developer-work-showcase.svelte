@@ -1,16 +1,15 @@
 <script lang="ts">
-  import ROBOT from "$lib/images/AI-driven/robo.png";
-  import Security from "$lib/images/AI-driven/security.png";
+
 
   const projects = [
     {
-      img: ROBOT,
+      img: "https://i.ibb.co/Gv049Ffm/robo.png",
       alt: "mobile",
       title: "NLP Chatbot for a Mid-Sized Healthcare Provider",
       link: "AI-driven/blog/healthcare-nlp-chatbot",
     },
     {
-      img: Security,
+      img: "https://i.ibb.co/3yfZGwPn/cctv.png ",
       alt: "bottle",
       title: "Enhancing Quality Control with Computer Vision for a Manufacturer incentives",
       link: "AI-driven/blog/automotive-cv-quality-control",

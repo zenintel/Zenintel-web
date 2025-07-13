@@ -7,6 +7,9 @@
 		"src/routes/services/AI-driven/blog/[slug]/+page.server.ts"
 	],
 	"/services/microsoft-365": [],
+	"/services/microsoft-365/blog/[slug]": [
+		"src/routes/services/microsoft-365/blog/[slug]/+page.server.ts"
+	],
 	"/services/product-engineering": [],
 	"/services/product-engineering/blog/[slug]": [
 		"src/routes/services/product-engineering/blog/[slug]/+page.server.ts"
