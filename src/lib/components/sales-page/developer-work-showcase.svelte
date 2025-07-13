@@ -8,14 +8,14 @@
       alt: "mobile",
       title:
         "Transforming Sales for an SMB",
-      link: "#",
+      link: "sales-force/blog/smb-salesforce-transformation",
     },
     {
       img: CustomerSupport,
       alt: "bottle",
       title:
         "Enhancing Customer Engagement for a Mid-Sized Firm",
-      link: "#",
+      link: "sales-force/blog/professional-services-salesforce-portal",
     },
     
   ];

@@ -10,28 +10,28 @@
       alt: "mobile",
       title:
         "Elevating eCommerce: How Lift Foils Transformed Their Online Experience with Headless Shopify",
-      link: "#",
+      link: "shopify/blog/lift-foils-headless-shopify",
     },
     {
       img: Bottle,
       alt: "bottle",
       title:
         "Revamping Vintage Bottlers Ltd.: A Modern Approach to Online Shopping",
-      link: "#",
+      link: "shopify/blog/vintage-bottlers-shopify",
     },
     {
       img: Swimming,
       alt: "Swimming",
       title:
         "Optimizing eCommerce: Lift Foils Australia's Seamless Transition to Shopify incentives",
-      link: "#",
+      link: "shopify/blog/lift-foils-shopify",
     },
     {
       img: Cart,
       alt: "Shopping cart",
       title:
         "Optimizing eCommerce: Lift Foils Australia's Seamless Transition to Shopify",
-      link: "#",
+      link: "shopify/blog/white-status-studio-wordpress",
     },
   ];
 </script>

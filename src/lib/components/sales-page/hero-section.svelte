@@ -4,7 +4,7 @@
   import RightArrow from "$lib/icons/microsoft/right-arrow.svelte";
 </script>
 
-<section class="bg-[#CCEFFF] flex justify-center">
+<section class="bg-[#CCEFFF] flex  justify-center">
   <div class="px-6 max-w-7xl mt-7 lg:mt-0 w-full">
     <div class="flex flex-col lg:flex-row lg:items-center lg:gap-12">
       <div class="lg:w-1/2 flex flex-col justify-center lg:order-1">
@@ -19,7 +19,7 @@
             />
           </div>
           <p class="text-[#666] text-xs font-bold uppercase tracking-wider">
-            SCALE FORCE
+            SALESFORCE
           </p>
         </div>
 

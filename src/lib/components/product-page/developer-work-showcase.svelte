@@ -6,7 +6,7 @@ const projects = [
       alt: "stock",
       title:
         "We integrate with the best in e-commerce",
-      link: "#",
+      link: "product-engineering/blog/forex-trading-solution",
     },
   ];
 </script>

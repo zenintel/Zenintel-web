@@ -7,13 +7,13 @@
       img: ROBOT,
       alt: "mobile",
       title: "NLP Chatbot for a Mid-Sized Healthcare Provider",
-      link: "#",
+      link: "AI-driven/blog/healthcare-nlp-chatbot",
     },
     {
       img: Security,
       alt: "bottle",
       title: "Enhancing Quality Control with Computer Vision for a Manufacturer incentives",
-      link: "#",
+      link: "AI-driven/blog/automotive-cv-quality-control",
     },
   ];
 </script>

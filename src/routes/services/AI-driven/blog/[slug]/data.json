@@ -1,0 +1,157 @@
+{
+  "caseStudies": [
+    {
+      "slug": "healthcare-nlp-chatbot",
+      "title": "AI Case Study",
+      "image": "https://i.ibb.co/d0YQJ5Ly/Group-1321314397.png",
+      "subtitle": "NLP Chatbot for a Mid-Sized Healthcare Provider",
+      "sections": [
+        {
+          "title": "Overview",
+          "content": [
+            "A mid-sized healthcare provider focused on outpatient care and patient engagement."
+          ]
+        },
+        {
+          "title": "Objective",
+          "content": [
+            "To enhance patient support, reduce administrative workload, and promote preventive care programs through an AI-driven solution"
+          ]
+        },
+        {
+          "title": "Challenges",
+          "content": [
+            {
+              "type": "ul",
+              "items": [
+                "High volume of repetitive queries (appointment bookings, prescription refills).",
+                "Limited support availability beyond business hours.",
+                "Low awareness of preventive care programs among patients."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Solution",
+          "content": [
+            {
+              "type": "subsections",
+              "items": [
+                {
+                  "title": "Object Detection",
+                  "content": [
+                    "Model: YOLOv4 and YOLOv7 were used for their accuracy and real-time detection capabilities.",
+                    "Training: The models were trained on a dataset of crimp objects, including examples of defects like scratches and bends."
+                  ]
+                },
+                {
+                  "title": "Measurement Using ArUco Markers",
+                  "content": [
+                    "A 24/7 NLP-powered chatbot with the following capabilities:",
+                    {
+                      "type": "ul",
+                      "items": [
+                        "Appointment scheduling and reminders",
+                        "Prescription refill management",
+                        "Symptom checking and health tips",
+                        "Educational content to promote preventive care",
+                        "Seamless handovers to human agents for complex cases"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Results",
+          "content": [
+            {
+              "type": "ul",
+              "items": [
+                "Efficiency: 70% of queries resolved without human intervention",
+                "Engagement: 40% increase in preventive care participation",
+                "Faster Responses: Reduced query resolution time to under a minute",
+                "Cost Savings: Lowered operational expenses by reducing support staff workload"
+              ]
+            },
+            "This chatbot transformed patient support, delivering round-the-clock assistance and improving engagement."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "automotive-cv-quality-control",
+      "title": "AI Case Study",
+      "image": "https://i.ibb.co/DDmbSwXq/cv-bot.png",
+      "subtitle": "Enhancing Quality Control with Computer Vision for a Manufacturer",
+      "sections": [
+        {
+          "title": "Client Profile",
+          "content": [
+            "A manufacturer specializing in automotive parts production, serving global clients with a focus on precision-engineered components. The company operates a single production facility and is committed to maintaining high-quality standards."
+          ]
+        },
+        {
+          "title": "Business Challenge",
+          "content": [
+            "The client faced several challenges due to manual quality control processes:",
+            {
+              "type": "ul",
+              "items": [
+                "Frequent defects such as cracks and dimension inaccuracies were being overlooked.",
+                "Delays in inspection led to production bottlenecks.",
+                "High labor costs and product recalls due to inconsistent quality.",
+                "Customer dissatisfaction from unreliable product quality."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Solution: Computer Vision for Quality Control",
+          "content": [
+            "ZenIntel implemented a computer vision system that:",
+            {
+              "type": "ul",
+              "items": [
+                {
+                  "title": "Automated Defect Detection",
+                  "description": "Cameras and software were installed to inspect parts for surface defects and measure dimensions in real time."
+                },
+                {
+                  "title": "Real-time Alerts",
+                  "description": "Instant notifications were sent when defects were identified, allowing for quick action to minimize waste."
+                },
+                {
+                  "title": "Streamlined Reporting",
+                  "description": "The system generated easy-to-read reports to track defect trends and production efficiency."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Key Results",
+          "content": [
+            {
+              "type": "ul",
+              "items": [
+                "Improved Accuracy: Detected over 95% of defects, reducing errors significantly.",
+                "Faster Processes: Inspection time was cut by 60%, eliminating production delays.",
+                "Cost Efficiency: Operational costs were reduced by 20%, with savings from fewer recalls and improved productivity.",
+                "Customer Satisfaction: Product reliability improved, leading to enhanced client feedback."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Conclusion",
+          "content": [
+            "The computer vision solution enabled the client to modernize its quality control processes, ensuring consistent product quality, faster operations, and notable cost savings. This demonstrates how manufacturers can leverage technology to optimize efficiency and enhance customer satisfaction."
+          ]
+        }
+      ]
+    }
+  ]
+}
