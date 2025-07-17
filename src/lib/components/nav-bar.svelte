@@ -9,6 +9,7 @@
 	import ZenIntelLogo from '$lib/icons/zenIntel-logo.svelte';
 	import { NavigationMenu } from 'bits-ui';
 	import { fly } from 'svelte/transition';
+  import Modal from './modal/modal.svelte';
 
 	let mobileMenuOpen = $state(false);
 	let mobileServicesOpen = $state(false);
@@ -70,7 +71,7 @@
 			}
 		}
 	});
-
+let open =$state(false)
 </script>
 
 <nav class="flex items-center justify-between bg-white p-4 shadow md:justify-around md:p-0 sticky top-0 z-50">
@@ -163,9 +164,11 @@
 
     <button
       class="flex items-center gap-1 rounded-full bg-black px-4 py-2 text-white transition-all hover:bg-gray-800 active:scale-[0.98]"
+	  onclick={()=>{open=!open}}
     >
       <span><CallThrough /></span> Request a call
     </button>
+	<Modal bind:open></Modal>
   </div>
 	<!-- Mobile Navigation -->
 	{#if mobileMenuOpen}
@@ -264,9 +267,11 @@
 
 					<button
 						class="mt-auto mb-4 flex items-center justify-center gap-1 rounded-full bg-black px-4 py-3 text-white hover:bg-gray-800"
+						onclick={()=>{open=!open}}
 					>
 						<span><CallThrough /></span> Request a call
 					</button>
+					<Modal bind:open></Modal>
 				</div>
 			</div>
 		</div>

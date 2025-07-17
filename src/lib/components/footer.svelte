@@ -1,6 +1,9 @@
 <script>
 	import LinkedInIcon from "$lib/icons/LinkedIn-Icon.svelte";
 	import ZenIntelLogo from "$lib/icons/zenIntel-logo.svelte";
+  import Modal from "./modal/modal.svelte";
+
+  let open =$state(false)
 </script>
 <footer class="bg-black px-4 py-10 lg:py-24 lg:px-40">
 		<div class="flex flex-col gap-10">
@@ -20,7 +23,8 @@
 					At Zenintel, we are innovative IT solution engineers harnessing the power of cutting-edge
 					technologies to drive success.
 				</p>
-				<button class="bg-primary rounded-sm px-3.5 py-2 text-white">Book a free call</button>
+				<button class="bg-primary rounded-sm px-3.5 py-2 text-white" onclick={()=>{open=!open}}>Book a free call</button>
+					<Modal  bind:open></Modal>
 			</div>
 			<div class="flex flex-col items-center gap-4 md:flex-row justify-between">
 				<p class="text-center text-sm text-white">sales@zen-intel.com | +91 93617 78252</p>

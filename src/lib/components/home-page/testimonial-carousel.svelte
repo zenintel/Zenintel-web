@@ -28,7 +28,7 @@
 	}
 </script>
 
-<section class="px-4 py-12 sm:py-16 sm:px-6 lg:px-8 min-h-[50vh] sm:min-h-dvh ">
+<section class="px-4 py-12 sm:py-16 sm:px-6 lg:px-8  ">
 	<div class="relative mx-auto w-full flex flex-col items-center max-w-4xl">
 		<div class="mb-8 sm:mb-12 max-w-md text-center">
 			<h2 class="text-sm font-semibold tracking-wider text-primary uppercase">

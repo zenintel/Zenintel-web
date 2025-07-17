@@ -1,6 +1,9 @@
 <script>
   import MicroSoftLogo from "$lib/images/microsoft-page/microsoft-logo.png";
-  import RightArrow from "$lib/icons/microsoft/right-arrow.svelte";
+  import Calendar from "$lib/icons/calendar.svelte";
+  import Modal from "../modal/modal.svelte";
+
+  let open = $state(false);
 </script>
 
 <section class="bg-[#FFF0ED] flex justify-center min-h-[94dvh] py-12">
@@ -47,19 +50,22 @@
         <!-- Button -->
         <div class="flex justify-center lg:justify-start mt-10">
           <button
-            class="bg-primary flex gap-2 py-3 px-6 text-white rounded-xl hover:bg-opacity-90 transition-colors"
+            class="bg-primary flex justify-center items-center gap-2 py-3 px-6 text-white rounded-xl hover:bg-opacity-90 transition-colors"
+            onclick={() => (open = !open)}
           >
-            Explore now
-            <RightArrow />
+            <Calendar />
+            Book a free call
           </button>
+          <Modal bind:open />
         </div>
       </div>
 
-
       <div class="md:block mt-6 lg:w-2/3 h-full">
-        <img src="https://i.ibb.co/jPZcgX7z/microsoft-main.png" alt="Microsoft services" />
+        <img
+          src="https://i.ibb.co/jPZcgX7z/microsoft-main.png"
+          alt="Microsoft services"
+        />
       </div>
     </div>
-
   </div>
 </section>

@@ -1,7 +1,10 @@
 <script lang="ts">
 
 	import Calendar from "$lib/icons/calendar.svelte";
-    import POC from "$lib/images/poc.png"
+  import Modal from "./modal/modal.svelte";
+     let open=$state(false)
+
+
 </script>
 <section class="bg-[#D8E6FF] px-4 md:px-20 pt-14">
     <div class="flex flex-col gap-8 md:flex-row md:justify-around ">
@@ -12,9 +15,10 @@
                 to validate innovative ideas with no upfront cost and ensure a solid foundation for our 
                 partnership.
             </p>
-            <button class="bg-primary flex items-center justify-center gap-3 rounded-xl px-4 py-3.5 text-white w-full md:w-fit">
+            <button onclick={()=>{open=!open}} class="bg-primary flex items-center justify-center gap-3 rounded-xl px-4 py-3.5 text-white w-full md:w-fit">
                 <span><Calendar /></span>Book a free call
             </button>
+            <Modal  bind:open></Modal>
         </div>
 
         <div class="relative flex-1 max-w-[500px]">

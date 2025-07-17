@@ -166,7 +166,7 @@
     </div>
   </section>
 
-  <div class="container mx-auto px-4 py-8 flex flex-col lg:flex-row gap-8">
+  <div class=" mx-auto px-4 py-8 flex flex-col lg:flex-row gap-8">
     <!-- Main Content -->
     <main class="lg:w-3/4 overflow-hidden">
       {#if data.props?.caseStudy?.sections}
