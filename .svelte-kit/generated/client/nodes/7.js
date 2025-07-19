@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/services/microsoft-365/+page.svelte";
+export { default as component } from "../../../../src/routes/services/AI-driven/blog/[slug]/+page.svelte";

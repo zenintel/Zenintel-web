@@ -1,6 +1,4 @@
 <script>
-	import software from '$lib/images/software.png';
-	import mobile from '$lib/images/mobile.png';
 	const blogs = [
 		{
 			title:
@@ -58,7 +56,7 @@
 					</div>
 					<div>
 							<a
-								href="#/"
+								href="/blog"
 								class="inline-flex items-center font-medium text-blue-600 hover:underline"
 							>
 								{blog.linkText}

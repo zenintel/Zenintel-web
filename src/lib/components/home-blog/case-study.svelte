@@ -8,7 +8,7 @@
     title:
       "The Importance of Product Engineering, Modernization, and Maintenance in business growth",
     image: "https://i.ibb.co/RXSLCv2/comp.png",
-    link: "#",
+    link: "blog/transforming-sales-smb",
   };
 
   const trendingCaseStudies = [
@@ -16,13 +16,13 @@
       title:
         "The Importance of Microsoft Power Apps, Azure, & SharePoint for Modern Businesses",
       image: "https://i.ibb.co/wqyDsgY/mob.png",
-      link: "#",
+      link: "blog/transforming-sales-smb",
     },
     {
       title:
         "Maximizing Your Business Potential with Shopify: A Complete Guide",
       image: "https://i.ibb.co/4n8gVX7B/mobile.png",
-      link: "#",
+      link: "blog/transforming-sales-smb",
     },
   ];
 
@@ -30,19 +30,19 @@
     {
       title: "Unlocking Business Success with Salesforce and Agentforce",
       image: "https://i.ibb.co/9HTDccVf/blog-sales.png",
-      link: "#",
+      link: "blog/transforming-sales-smb",
     },
     {
       title:
         "AI-Driven NLP and Computer Vision: Revolutionizing the Future of Technology",
       image: "https://i.ibb.co/dwTzVH6t/blog-ai.png",
-      link: "#",
+      link: "blog/transforming-sales-smb",
     },
     {
       title:
         "The Importance of Outsourcing & Offshore Development Partners in Today’s Business Landscape",
       image: "https://i.ibb.co/WWk7VkmL/blog-listen.png",
-      link: "#",
+      link: "blog/transforming-sales-smb",
     },
   ];
 </script>

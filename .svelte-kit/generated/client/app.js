@@ -15,7 +15,8 @@ export const nodes = [
 	() => import('./nodes/11'),
 	() => import('./nodes/12'),
 	() => import('./nodes/13'),
-	() => import('./nodes/14')
+	() => import('./nodes/14'),
+	() => import('./nodes/15')
 ];
 
 export const server_loads = [];
@@ -23,17 +24,18 @@ export const server_loads = [];
 export const dictionary = {
 		"/": [2],
 		"/blog": [3],
-		"/company": [4],
-		"/services/AI-driven": [5],
-		"/services/AI-driven/blog/[slug]": [~6],
-		"/services/microsoft-365": [7],
-		"/services/microsoft-365/blog/[slug]": [~8],
-		"/services/product-engineering": [9],
-		"/services/product-engineering/blog/[slug]": [~10],
-		"/services/sales-force": [11],
-		"/services/sales-force/blog/[slug]": [~12],
-		"/services/shopify": [13],
-		"/services/shopify/blog/[slug]": [~14]
+		"/blog/[slug]": [~4],
+		"/company": [5],
+		"/services/AI-driven": [6],
+		"/services/AI-driven/blog/[slug]": [~7],
+		"/services/microsoft-365": [8],
+		"/services/microsoft-365/blog/[slug]": [~9],
+		"/services/product-engineering": [10],
+		"/services/product-engineering/blog/[slug]": [~11],
+		"/services/sales-force": [12],
+		"/services/sales-force/blog/[slug]": [~13],
+		"/services/shopify": [14],
+		"/services/shopify/blog/[slug]": [~15]
 	};
 
 export const hooks = {

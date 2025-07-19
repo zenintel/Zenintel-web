@@ -5,14 +5,49 @@
   let { open = $bindable(false) } = $props();
 
   // Form state
-  let firstName = $state();
-  let lastName = $state();
-  let companyName = $state();
-  let phoneNumber = $state();
-  let service = $state();
-  let query = $state();
+  let firstName = $state('');
+  let lastName = $state('');
+  let companyName = $state('');
+  let phoneNumber = $state('');
+  let service = $state('');
+  let query = $state('');
   let agreeToContact = $state(false);
-  console.log(open, "child");
+
+  // Form submission handler
+  async function handleSubmit(event: SubmitEvent) {
+    event.preventDefault();
+    
+    try {
+      // Here you would typically send the data to your API
+      console.log('Form submitted:', {
+        firstName,
+        lastName,
+        companyName,
+        phoneNumber: `+91-${phoneNumber}`,
+        service,
+        query,
+        agreeToContact
+      });
+
+      // Reset form after successful submission
+      firstName = '';
+      lastName = '';
+      companyName = '';
+      phoneNumber = '';
+      service = '';
+      query = '';
+      agreeToContact = false;
+      
+      // Close the dialog
+      open = false;
+      
+      // Show success message (you might want to use a toast notification)
+      alert('Thank you for your submission! We will contact you soon.');
+    } catch (error) {
+      console.error('Submission error:', error);
+      alert('There was an error submitting your form. Please try again.');
+    }
+  }
 </script>
 
 <Dialog.Root bind:open>
@@ -24,64 +59,57 @@
 
     <!-- Content -->
     <Dialog.Content
-      class="fixed left-1/2 top-1/2 z-50 w-full   max-md:max-w-xs    md:max-w-md xl:max-w-lg  -translate-x-1/2 -translate-y-1/2 rounded-xl bg-white p-6 shadow-lg focus:outline-none"
+      class="fixed left-1/2 top-1/2 z-50 w-full max-md:max-w-xs md:max-w-md xl:max-w-lg -translate-x-1/2 -translate-y-1/2 rounded-xl bg-white p-6 shadow-lg focus:outline-none"
     >
       <div class="relative">
         <!-- Close Button -->
         <Dialog.Close
-          class="absolute -right-2 -top-2 rounded-full p-1 text-gray-500 hover:text-gray-700 "
+          class="absolute -right-2 -top-2 rounded-full p-1 text-gray-500 hover:text-gray-700"
         >
           <Close />
           <span class="sr-only">Close</span>
         </Dialog.Close>
 
         <!-- Title -->
-        <Dialog.Title class=" font-semibold text-gray-900 mb-2">
+        <Dialog.Title class="font-semibold text-gray-900 mb-2">
           Power Up Your Tech Force
         </Dialog.Title>
 
         <!-- Form -->
-        <form class="mt-4 space-y-4">
+        <form onsubmit={handleSubmit} class="mt-4 space-y-4">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
-             
               <input
                 id="firstName"
                 bind:value={firstName}
                 type="text"
-                required
                 class="w-full rounded-md border border-gray-300 px-3 py-2 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
                 placeholder="First Name"
               />
             </div>
 
             <div>
-              
               <input
                 id="lastName"
                 bind:value={lastName}
                 type="text"
-                required
                 class="w-full rounded-md border border-gray-300 px-3 py-2 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
-                 placeholder="Last Name"
+                placeholder="Last Name"
               />
             </div>
           </div>
 
           <div>
-          
             <input
               id="companyName"
               bind:value={companyName}
               type="text"
-              required
               class="w-full rounded-md border border-gray-300 px-3 py-2 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
               placeholder="Company Name"
             />
           </div>
 
           <div>
-          
             <div class="relative">
               <div
                 class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-gray-500"
@@ -92,15 +120,13 @@
                 id="phoneNumber"
                 bind:value={phoneNumber}
                 type="tel"
-                required
-              placeholder="Phone Number"
+                placeholder="Phone Number"
                 class="w-full rounded-md border border-gray-300 px-3 py-2 pl-14 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
               />
             </div>
           </div>
 
           <div>
-           
             <select
               id="service"
               bind:value={service}
@@ -141,7 +167,6 @@
               id="query"
               bind:value={query}
               rows={4}
-              required
               class="w-full rounded-md border border-gray-300 px-3 py-2 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
             ></textarea>
           </div>

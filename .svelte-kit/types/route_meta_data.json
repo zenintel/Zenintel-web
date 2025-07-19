@@ -1,6 +1,9 @@
 {
 	"/": [],
 	"/blog": [],
+	"/blog/[slug]": [
+		"src/routes/blog/[slug]/+page.server.ts"
+	],
 	"/company": [],
 	"/services/AI-driven": [],
 	"/services/AI-driven/blog/[slug]": [
