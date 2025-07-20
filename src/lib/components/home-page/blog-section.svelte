@@ -1,25 +1,22 @@
 <script>
-	import laptop from '$lib/images/laptop.png';
-	import software from '$lib/images/software.png';
-	import mobile from '$lib/images/mobile.png';
 	const blogs = [
 		{
 			title:
 				'The Importance of Product Engineering, Modernization, and Maintenance in Business Growth',
 			linkText: 'View more →',
-			image: laptop,
+			image: "https://i.ibb.co/qMjVFDfV/home-computer.png",
 			alt: 'Laptop representing product engineering'
 		},
 		{
 			title: 'The Importance of Microsoft Power Apps, Azure, & SharePoint for Modern Businesses',
 			linkText: 'View more →',
-			image: software,
+			image: "https://i.ibb.co/SX5NSLsy/home-teams.png",
 			alt: 'Software icons representing Microsoft technologies'
 		},
 		{
 			title: 'Maximizing Your Business Potential with Shopify: A Complete Guide',
 			linkText: 'View more →',
-			image: mobile,
+			image: "https://i.ibb.co/Y7Kv2QGB/home-max.png",
 			alt: 'Mobile device representing Shopify'
 		}
 	];
@@ -42,7 +39,7 @@
 		<!-- Blog Cards -->
 		<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
 			{#each blogs as blog}
-				<div class=" overflow-hidden rounded-lg">
+				<div class=" flex flex-col justify-between overflow-hidden rounded-lg">
 					<div>
 						<img
 							src={blog.image}
@@ -55,15 +52,16 @@
 						<h3 class="mb-4 line-clamp-3 text-lg font-semibold text-gray-800">
 							{blog.title}
 						</h3>
-						<div>
+						
+					</div>
+					<div>
 							<a
-								href="#/"
+								href="/blog"
 								class="inline-flex items-center font-medium text-blue-600 hover:underline"
 							>
 								{blog.linkText}
 							</a>
 						</div>
-					</div>
 				</div>
 			{/each}
 		</div>

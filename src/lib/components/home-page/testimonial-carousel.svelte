@@ -28,7 +28,7 @@
 	}
 </script>
 
-<section class="px-4 py-12 sm:py-16 sm:px-6 lg:px-8 min-h-[50vh] sm:min-h-dvh ">
+<section class="px-4 py-12 sm:py-16 sm:px-6 lg:px-8  ">
 	<div class="relative mx-auto w-full flex flex-col items-center max-w-4xl">
 		<div class="mb-8 sm:mb-12 max-w-md text-center">
 			<h2 class="text-sm font-semibold tracking-wider text-primary uppercase">
@@ -64,7 +64,7 @@
 
 		<!-- Desktop arrows -->
 		<button
-			class="hidden sm:flex absolute top-1/2 left-0 sm:-left-12 h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-gray-300 transition-colors hover:bg-gray-100"
+			class="hidden sm:flex absolute top-[70%] left-0 sm:-left-12 h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-gray-300 transition-colors hover:bg-gray-100"
 			onclick={prevSlide}
 			aria-label="Previous testimonial"
 		>
@@ -74,7 +74,7 @@
 		</button>
 
 		<button
-			class="hidden sm:flex absolute top-1/2 right-0 sm:-right-12 h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-gray-300 transition-colors hover:bg-gray-100"
+			class="hidden sm:flex absolute top-[70%] right-0 sm:-right-12 h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-gray-300 transition-colors hover:bg-gray-100"
 			onclick={nextSlide}
 			aria-label="Next testimonial"
 		>

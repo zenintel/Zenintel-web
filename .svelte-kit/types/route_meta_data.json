@@ -1,4 +1,28 @@
 {
 	"/": [],
-	"/company": []
+	"/blog": [],
+	"/blog/[slug]": [
+		"src/routes/blog/[slug]/+page.server.ts"
+	],
+	"/company": [],
+	"/services/AI-driven": [],
+	"/services/AI-driven/blog/[slug]": [
+		"src/routes/services/AI-driven/blog/[slug]/+page.server.ts"
+	],
+	"/services/microsoft-365": [],
+	"/services/microsoft-365/blog/[slug]": [
+		"src/routes/services/microsoft-365/blog/[slug]/+page.server.ts"
+	],
+	"/services/product-engineering": [],
+	"/services/product-engineering/blog/[slug]": [
+		"src/routes/services/product-engineering/blog/[slug]/+page.server.ts"
+	],
+	"/services/sales-force": [],
+	"/services/sales-force/blog/[slug]": [
+		"src/routes/services/sales-force/blog/[slug]/+page.server.ts"
+	],
+	"/services/shopify": [],
+	"/services/shopify/blog/[slug]": [
+		"src/routes/services/shopify/blog/[slug]/+page.server.ts"
+	]
 }

@@ -24,7 +24,7 @@
 					</p>
 				</div>
 
-				<a href="/#" class="group inline-flex items-center font-medium text-blue-600">
+				<a href="/services/shopify" class="group inline-flex items-center font-medium text-blue-600">
 					Read more
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@
 					</p>
 				</div>
 
-				<a href="/#" class="group inline-flex items-center font-medium text-blue-600">
+				<a href="/services/microsoft-365" class="group inline-flex items-center font-medium text-blue-600">
 					Read more
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +87,7 @@
 					</p>
 				</div>
 
-				<a href="/#" class="group inline-flex items-center font-medium text-blue-600">
+				<a href="/services/AI-driven" class="group inline-flex items-center font-medium text-blue-600">
 					Read more
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -117,7 +117,7 @@
 					</p>
 				</div>
 
-				<a href="/#" class="group inline-flex items-center font-medium text-blue-600">
+				<a href="/services/sales-force" class="group inline-flex items-center font-medium text-blue-600">
 					Read more
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +146,7 @@
 					</p>
 				</div>
 
-				<a href="/#" class="group inline-flex items-center font-medium text-blue-600">
+				<a href="/services/product-engineering" class="group inline-flex items-center font-medium text-blue-600">
 					Read more
 					<svg
 						xmlns="http://www.w3.org/2000/svg"

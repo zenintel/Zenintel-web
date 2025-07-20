@@ -1,6 +1,13 @@
 <script>
 	import Calendar from '$lib/icons/calendar.svelte';
 	import HeroImg from '$lib/images/hero-image.png';
+  import Modal from '../modal/modal.svelte';
+  let open=$state(false)
+
+  const handleClick=()=>{
+	console.log('hello',open);
+	open=!open
+  }
 </script>
 
 <section
@@ -18,10 +25,12 @@
 
 		<button
 			class="flex items-center gap-2 rounded-lg bg-blue-600 px-6 py-3 font-medium text-white transition-colors hover:bg-blue-700"
+			onclick={handleClick}
 		>
 			<Calendar />
 			Book a free call
 		</button>
+		<Modal  bind:open></Modal>
 	</div>
 
 	<div class="mt-8 lg:mt-0">
