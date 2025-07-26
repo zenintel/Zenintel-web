@@ -1,7 +1,5 @@
 <script>
   import Sun from "$lib/icons/AI/sun.svelte";
-  import Ring from "$lib/icons/microsoft/ring.svelte";
-  import Separator from "$lib/icons/microsoft/separator.svelte";
   import Testing from "$lib/icons/shopify/testing.svelte";
 
   // Power Platform services data

@@ -1,7 +1,5 @@
 <script>
-    let width = 40;
-    let height = 40;
-    
+    let {width=40,height=40}=$props()    
 </script>
 
 <svg width={width} height={height} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

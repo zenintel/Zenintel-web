@@ -1,6 +1,5 @@
 <script>
-    let width = 44;
-    let height = 44;
+    let {width=40,height=40}=$props()    
     
 </script>
 

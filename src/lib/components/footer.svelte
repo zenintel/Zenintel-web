@@ -10,10 +10,10 @@
 			<div class="flex flex-col items-center gap-10 md:flex-row md:justify-between">
 				<ZenIntelLogo width="129" height="44"></ZenIntelLogo>
 				<ul class="flex gap-2 text-sm text-white md:gap-10">
-					<li><a href="/#">Home</a></li>
-					<li><a href="/#">Company</a></li>
-					<li><a href="/#">Service</a>x</li>
-					<li>Blog</li>
+					<li><a href="/">Home</a></li>
+					<li><a href="/company">Company</a></li>
+					<li><a href="/Service">Service</a></li>
+					<li><a href="/blog">Blog</a></li>
 					<li>Contact us</li>
 				</ul>
 			</div>

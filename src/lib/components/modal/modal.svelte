@@ -1,51 +1,57 @@
 <script lang="ts">
   import Close from "$lib/icons/close.svelte";
   import { Dialog } from "bits-ui";
+  import emailjs from "@emailjs/browser";
 
   let { open = $bindable(false) } = $props();
-
+  let loading = $state(false);
   // Form state
-  let firstName = $state('');
-  let lastName = $state('');
-  let companyName = $state('');
-  let phoneNumber = $state('');
-  let service = $state('');
-  let query = $state('');
+  let firstName = $state("");
+  let lastName = $state("");
+  let companyName = $state("");
+  let phoneNumber = $state("");
+  let service = $state("");
+  let query = $state("");
   let agreeToContact = $state(false);
 
   // Form submission handler
   async function handleSubmit(event: SubmitEvent) {
     event.preventDefault();
-    
+    loading = true;
     try {
       // Here you would typically send the data to your API
-      console.log('Form submitted:', {
-        firstName,
-        lastName,
-        companyName,
-        phoneNumber: `+91-${phoneNumber}`,
-        service,
-        query,
-        agreeToContact
-      });
-
+      await emailjs.send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        {
+          name: `${firstName} ${lastName}`,
+          company: companyName,
+          phone: `+91-${phoneNumber}`,
+          service: service,
+          query: query,
+          date: new Date().toLocaleString(),
+        },
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      );
+        
       // Reset form after successful submission
-      firstName = '';
-      lastName = '';
-      companyName = '';
-      phoneNumber = '';
-      service = '';
-      query = '';
+      firstName = "";
+      lastName = "";
+      companyName = "";
+      phoneNumber = "";
+      service = "";
+      query = "";
       agreeToContact = false;
-      
+
       // Close the dialog
       open = false;
-      
+
       // Show success message (you might want to use a toast notification)
-      alert('Thank you for your submission! We will contact you soon.');
+      alert("Thank you for your submission! We will contact you soon.");
     } catch (error) {
-      console.error('Submission error:', error);
-      alert('There was an error submitting your form. Please try again.');
+      console.error("Submission error:", error);
+    } finally {
+      loading = false;
     }
   }
 </script>
@@ -175,7 +181,7 @@
             type="submit"
             class="w-full bg-primary hover:bg-primary/90 text-white py-3 px-4 rounded-md transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
           >
-            Get started →
+            {loading ? "Loading..." : "Get started →"}
           </button>
         </form>
       </div>
