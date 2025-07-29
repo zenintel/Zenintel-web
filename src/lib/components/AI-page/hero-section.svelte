@@ -55,7 +55,7 @@
       </div>
 
       <div class="md:block mt-6 lg:w-1/2 h-full lg:order-2">
-        <img src="https://i.ibb.co/DPBrbJNh/ai-robo.png" alt="sale hero" class="w-full h-auto" />
+        <img src="https://i.postimg.cc/Fst9jBBp/AI.png" alt="sale hero" class="w-full h-auto" />
       </div>
     </div>
   </div>
