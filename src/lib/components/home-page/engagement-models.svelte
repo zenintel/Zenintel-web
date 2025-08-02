@@ -11,7 +11,7 @@ interface EngagementModel {
   const models:EngagementModel[] = [
     {
       title: "Extended Team Model (ETM)",
-      description: '"Maximize your project\'s success with our Extended Team Model (ETM). We integrate seamlessly with your in-house team, providing skilled experts to extend your capabilities, drive efficiency, and accelerate delivery, all while maintaining flexibility and cost-effectiveness."',
+      description: 'Maximize your project\'s success with our Extended Team Model (ETM). We integrate seamlessly with your in-house team, providing skilled experts to extend your capabilities, drive efficiency, and accelerate delivery, all while maintaining flexibility and cost-effectiveness.',
       icon: Arrows  
     },
     {

@@ -8,7 +8,7 @@
 			role: 'COO, Leading Retailer'
 		},
 		{
-			quote: '“Our new headless Shopify site has exceeded expectations. The speed, design, and user experiences are unmatched. Were thrilled with the results and excited for future growth',
+			quote: '“Our new headless Shopify site has exceeded expectations. The speed, design, and user experiences are unmatched. Were thrilled with the results and excited for future growth."',
 			name: 'Priya Sharma',
 			role: 'Head of E-commerce, Fashion Brand'
 		},

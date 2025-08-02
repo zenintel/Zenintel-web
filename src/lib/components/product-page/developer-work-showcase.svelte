@@ -23,11 +23,11 @@ const projects = [
         alt={projects[0].alt}
         class="lg:w-2/3 w-full h-52 object-cover"
       />
-      <div class="p-8 lg:w-2/3">
+      <div class="p-8 lg:w-2/3 flex flex-col justify-between">
         <h3 class="lg:text-3xl text-xl  font-medium  mb-2">
           {projects[0].title}
         </h3>
-        <p class="mb-2">Connecting your online business to Numeral is 100% secure. We only act as a bridge between platforms and your sales tax.</p>
+        <!-- <p class="mb-2">Connecting your online business to Numeral is 100% secure. We only act as a bridge between platforms and your sales tax.</p> -->
         <a
           href={projects[0].link}
           class="text-blue-600 text-sm font-medium hover:underline"

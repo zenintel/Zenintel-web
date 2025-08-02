@@ -62,7 +62,7 @@
 
       <div class="md:block mt-6 lg:w-2/3 h-full">
         <img
-          src="https://i.ibb.co/jPZcgX7z/microsoft-main.png"
+          src="https://i.postimg.cc/kX7H3N69/mircosoft-image.png"
           alt="Microsoft services"
         />
       </div>

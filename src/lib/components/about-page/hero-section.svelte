@@ -60,7 +60,7 @@
       >
         WHO IS ZENINTEL ?
       </h2>
-      <h1 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+      <h1 class="text-2xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-6">
         Empowering businesses, redefining possibilities.
       </h1>
       <p class="text-gray-600 text-lg md:text-xl max-w-2xl mx-auto mb-12">

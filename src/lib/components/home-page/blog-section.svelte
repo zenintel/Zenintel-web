@@ -33,7 +33,7 @@
 					Zenintel claim-handling experience
 				</p>
 			</div>
-			<button  class="font-medium text-white bg-[#1A2B3B] rounded-lg p-3">View all</button>
+			<button  class="font-medium text-white bg-[#1A2B3B] rounded-lg p-3"> <a href="/blog">View all</a></button>
 		</div>
 
 		<!-- Blog Cards -->

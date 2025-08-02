@@ -1,6 +1,5 @@
 <script>
   import GearLogo from "$lib/images/product/gear-logo.png";
-  import RightArrow from "$lib/icons/microsoft/right-arrow.svelte";
   import Calendar from "$lib/icons/calendar.svelte";
   import Modal from "../modal/modal.svelte";
 
@@ -60,7 +59,7 @@
 
       <div class="md:block mt-6 lg:w-1/2 h-full lg:order-2">
         <img
-          src="https://i.ibb.co/V5LmrqR/hand-settings.png"
+          src="https://i.postimg.cc/jSgmhWjT/product.png"
           alt="sale hero"
           class="w-full h-auto"
         />
