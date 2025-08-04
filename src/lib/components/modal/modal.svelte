@@ -1,11 +1,12 @@
 <script lang="ts">
   import Close from "$lib/icons/close.svelte";
   import { Dialog } from "bits-ui";
-  import emailjs from "@emailjs/browser";
+  import { onMount } from "svelte";
+  import { browser } from "$app/environment";
 
   let { open = $bindable(false) } = $props();
   let loading = $state(false);
-  // Form state
+
   let firstName = $state("");
   let lastName = $state("");
   let companyName = $state("");
@@ -14,12 +15,21 @@
   let query = $state("");
   let agreeToContact = $state(false);
 
-  // Form submission handler
+  let emailjs: any;
+
+  onMount(async () => {
+    if (browser) {
+      const mod = await import("@emailjs/browser");
+      emailjs = mod.default || mod;
+    }
+  });
+
   async function handleSubmit(event: SubmitEvent) {
     event.preventDefault();
+    if (!browser || !emailjs) return;
     loading = true;
+
     try {
-      // Here you would typically send the data to your API
       await emailjs.send(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
@@ -33,8 +43,8 @@
         },
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       );
-        
-      // Reset form after successful submission
+
+      // Reset state
       firstName = "";
       lastName = "";
       companyName = "";
@@ -42,11 +52,8 @@
       service = "";
       query = "";
       agreeToContact = false;
-
-      // Close the dialog
       open = false;
 
-      // Show success message (you might want to use a toast notification)
       alert("Thank you for your submission! We will contact you soon.");
     } catch (error) {
       console.error("Submission error:", error);
@@ -55,6 +62,7 @@
     }
   }
 </script>
+ 
 
 <Dialog.Root bind:open>
   <!-- Trigger Button -->
