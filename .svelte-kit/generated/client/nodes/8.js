@@ -1,1 +1,0 @@
-export { default as component } from "../../../../src/routes/services/microsoft-365/+page.svelte";

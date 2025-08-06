@@ -1,1 +1,0 @@
-export { default as component } from "../../../../src/routes/services/sales-force/blog/[slug]/+page.svelte";
