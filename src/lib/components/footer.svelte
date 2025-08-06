@@ -12,15 +12,15 @@
 				<ul class="flex gap-2 text-sm text-white md:gap-10">
 					<li><a href="/">Home</a></li>
 					<li><a href="/company">Company</a></li>
-					<li><a href="/Service">Service</a></li>
 					<li><a href="/blog">Blog</a></li>
-					<li>Contact us</li>
+					<li><button onclick={()=>{open=!open}}>Contact us</button></li>
+					<Modal  bind:open></Modal>
 				</ul>
 			</div>
 
 			<div class="flex flex-col gap-5 rounded-lg bg-[#282828] px-4 py-6 md:flex-row md:justify-between ">
 				<p class="text-[#9D9D9D] md:w-[500px]">
-					At Zenintel, we are innovative IT solution engineers harnessing the power of cutting-edge
+					At ZenIntel, we are innovative IT solution engineers harnessing the power of cutting-edge
 					technologies to drive success.
 				</p>
 				<button class="bg-primary rounded-sm px-3.5 py-2 text-white" onclick={()=>{open=!open}}>Book a free call</button>
@@ -28,9 +28,9 @@
 			</div>
 			<div class="flex flex-col items-center gap-4 md:flex-row justify-between">
 				<p class="text-center text-sm text-white">sales@zen-intel.com | +91 93617 78252</p>
-				<p class="text-center text-sm text-white">Zenintel © 2025. All Rights Reserved.</p>
+				<p class="text-center text-sm text-white">ZenIntel © 2025. All Rights Reserved.</p>
 				<div>
-					<a href="/#"><LinkedInIcon /></a>
+					<a href="https://www.linkedin.com/company/zen-intel/?lipi=urn%3Ali%3Apage%3Ad_flagship3_messaging_conversation_detail%3B7luQ7Ib4T0GCWRZQ9f4VZQ%3D%3D"><LinkedInIcon /></a>
 				</div>
 			</div>
 		</div>
