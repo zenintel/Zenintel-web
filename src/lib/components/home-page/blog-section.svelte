@@ -30,7 +30,7 @@
 				<h2 class="text-primary mb-2 text-xs font-bold">OUR BLOGS</h2>
 				<p class="mx-auto max-w-4xl text-2xl md:text-4xl font-bold">
 					See what our customers have to say about
-					Zenintel claim-handling experience
+					ZenIntel claim-handling experience
 				</p>
 			</div>
 			<button  class="font-medium text-white bg-[#1A2B3B] rounded-lg p-3"> <a href="/blog">View all</a></button>
