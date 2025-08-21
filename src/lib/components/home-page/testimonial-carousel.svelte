@@ -3,22 +3,25 @@
 
 	const testimonials = [
 		{
-			quote: '“The software solution has revolutionized our operations. The automation and real-time insights have made us more competitive in the market. We’re thrilled with the results and the ongoing support from the team.”',
-			name: 'Ramesh Kumar',
-			role: 'COO, Leading Retailer'
+			quote: '“I’m really happy with how the website turned out! It looks clean and modern. Big thanks to the Mr Naren and special thanks to designer and developer — I truly appreciate the creativity and professionalism you brought to the project. It was a pleasure working with you, and I’m excited to share the site with others. Definitely recommend your work to anyone looking to create a strong online presence. Also team remember, this is just a beginning, we have lot of ideas and we need your support. Thank you.”',
+			name: 'Kirubakaran',
+			role: 'Linear Management Advisory'
 		},
 		{
-			quote: '“Our new headless Shopify site has exceeded expectations. The speed, design, and user experiences are unmatched. Were thrilled with the results and excited for future growth."',
-			name: 'Priya Sharma',
-			role: 'Head of E-commerce, Fashion Brand'
+			quote: '“ZenIntel goes by the saying “You need to show up and do what you said you were going to do”, and that’s exactly what he did. I had a range of development technical issues and Naren used his team to get things back on track and with some great website design.  I highly recommend the professionals at ZenIntel who are trustworthy, efficient and impactful.”',
+			name: 'Chris Brown',
+			role: 'CB Wills'
 		},
 		{
-			quote: '“Working with ZenIntel was a transformative experience for our brand. The revamped design and seamless migration have elevated our online presence. The attention to detail and commitment to excellence truly stood out.”',
-			name: 'Anil Mehta',
-			role: 'CEO, Vintage Apparel'
+			quote: '“The software solution has revolutionized our operations. The automation and real-time insights have made us more competitive in the market. We’re thrilled with the results and the ongoing support from the team just mention company name alone”',
+			name: 'Isaac',
+			role: 'Bigpay '
+		},{
+			quote: '“Our new headless Shopify site has exceeded expectations. The speed, design, and user experience are unmatched. We’re thrilled with the results and excited for future growth!”',
+			name: 'Lift foils',
+			role: 'Australia'
 		}
 	];
-
 	function nextSlide() {
 		currentIndex = (currentIndex + 1) % testimonials.length;
 	}
