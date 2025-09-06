@@ -10,8 +10,11 @@
   import Points from "$lib/images/clients-logo/points.png";
   import Proodle from "$lib/images/clients-logo/proodle.png";
   import SatyaSchool from "$lib/images/clients-logo/satya-school.png";
+  import Modal from "../modal/modal.svelte";
+  let open =$state(false)
   let openModal = () => {
     // Modal opening logic here
+    open=true
   };
 </script>
 
@@ -198,7 +201,7 @@
     </div>
   </section>
 </div>
-
+<Modal open={open}></Modal>
 <style>
   @keyframes marquee {
     0% {

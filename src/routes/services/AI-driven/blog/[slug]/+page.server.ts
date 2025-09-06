@@ -3,7 +3,7 @@ import caseStudies from "./data.json";
 
 export const load: PageServerLoad = async ({ params }) => {
   const caseStudy = caseStudies.caseStudies.find(
-    (cs) => cs.slug === params.slug
+    (cs) => cs.slug === params.slug,
   );
 
   if (!caseStudy) {

@@ -69,7 +69,7 @@
 
   <Dialog.Portal>
     <!-- Overlay -->
-    <Dialog.Overlay class="fixed inset-0 bg-black/80 z-50 backdrop-blur-sm" />
+    <Dialog.Overlay class="fixed inset-0 bg-black/50 z-50 backdrop-blur-sm" />
 
     <!-- Content -->
     <Dialog.Content

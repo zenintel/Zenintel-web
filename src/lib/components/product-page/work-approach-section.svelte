@@ -16,13 +16,13 @@
   };
   const steps: PropsType[] = [
     {
-      title: "User-Centric Design",
+      title: "Understanding Your Business Needs",
       description:
-        "We prioritize intuitive, scalable, and engaging user experiences, ensuring products align with business goals and customer needs",
+        "We work closely with you to deeply understand your unique challenges and goals, ensuring our AI solutions are aligned with your business vision.",
       icon: Bento,
     },
     {
-      title: "Agile Development",
+      title: "Customized Solution Design",
       description:
         "Our iterative approach accelerates development cycles, allowing flexibility, continuous improvement, and faster time-to-market.",
       icon: BarChart,
@@ -30,13 +30,13 @@
     {
       title: "Scalable Architecture",
       description:
-        "We design robust, future-ready architectures that support growth, performance, and seamless integrations across platforms.",
+        "Our experts design tailored NLP and Computer Vision models, using cuttingedge technology to solve your specific problems with precision and efficiency.",
       icon: Testing,
     },
     {
-      title: "Quality & Reliability",
+      title: "Customized Solution Design",
       description:
-        "We ensure high performance, security, and reliability through rigorous testing, automation, and compliance with industry standards.",
+        "We adopt an agile approach, ensuring flexibility and adaptability with iterative feedback, quick adjustments, and timely delivery of your AI solution.",
       icon: Verified,
     },
        {
@@ -54,7 +54,7 @@
       Our Work Approach
     </p>
     <h2 class="text-2xl md:text-4xl font-bold mb-10 mt-2 max-w-3xl">
-      Agile, solution-focused, and innovation-driven for Salesforce success.
+      Find the way forward for your business
     </h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -72,7 +72,7 @@
         </div>
       {/each}
     </div>
-<div class="flex flex-col lg:flex-row gap-6">
+<!-- <div class="flex flex-col lg:flex-row gap-6">
  <div
       class="bg-white flex-col items-start lg:flex-row-reverse mt-6 justify-between lg:items-center rounded-xl p-6 flex gap-4  border border-gray-200"
     >
@@ -95,7 +95,7 @@
         </p>
       </div>
     </div>
-</div>
+</div> -->
    
   </div>
 </section>

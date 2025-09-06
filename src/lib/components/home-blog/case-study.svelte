@@ -1,7 +1,4 @@
 <script>
-  import Salesforce from "$lib/images/blog/sales-force.png";
-  import AI from "$lib/images/blog/AI.png";
-  import Office from "$lib/images/blog/office-space.png";
   import Lighting from "$lib/icons/blog/lighting.svelte";
   import Rocket from "$lib/icons/blog/rocket.svelte";
   const latestCaseStudy = {
